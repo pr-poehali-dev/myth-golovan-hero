@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -9,7 +9,7 @@
     --background: 0 0% 100%;
     --foreground: 217 33% 17%;
 
-    --card: 0 0% 100%;
+    --card: 0 0% 98%;
     --card-foreground: 217 33% 17%;
 
     --popover: 0 0% 100%;
@@ -18,10 +18,10 @@
     --primary: 262 83% 58%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 271 91% 65%;
+    --secondary: 217 33% 17%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 84 100% 94%;
+    --muted: 0 0% 96%;
     --muted-foreground: 217 20% 51%;
 
     --accent: 262 83% 58%;
@@ -34,7 +34,7 @@
     --input: 220 13% 91%;
     --ring: 262 83% 58%;
 
-    --radius: 0.75rem;
+    --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
 
@@ -113,8 +113,8 @@
   h4,
   h5,
   h6 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
+    font-family: "Cormorant", serif;
+    font-weight: 600;
   }
 
   article {
